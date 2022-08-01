@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route, NavLink, Switch } from "react-router-dom";
 import './App.css'
 import TrackPage from './Components/TrackPage'
 import SubmitPage from './Components/SubmitPage'
@@ -19,5 +21,11 @@ function App() {
     </div>
   );
 }
+ReactDOM.render(
+  <BrowserRouter>
+    <NavBar />
+  </BrowserRouter>,
+  document.getElementById("root")
+  );
 
 export default App;
