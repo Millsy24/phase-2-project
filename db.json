@@ -1,0 +1,60 @@
+{
+    "sightings": [
+      {
+        "id": 1,
+        "user": "Bad_Duffy21",
+        "date": "07-21-2022",
+        "body": "The Bigfoot in the Walmart parking lot told my dog the truth!",
+        "image": "assets/images/bigfoot1.jpg",
+        "location": "Ogdenburg"
+      },
+      {
+        "id": 2,
+        "user": "anon3640",
+        "date": "02-09-2021",
+        "body": "I met four UFOs at the Chili Fest. They were nice but one of 'em stole my drink tickets.",
+        "image": "assets/images/ufo1.jpg",
+        "location": "Newcomerstown"
+      },
+      {
+        "id": 3,
+        "user": "FreeDurdenHatt003",
+        "date": "05-01-2022",
+        "body": "My uncle's dentist said he saw a guy in a Shrek costume in the woods, but it was probably a Bigfootses, probably.",
+        "image": "assets/images/bigfoot2.jpg",
+        "location": "Upper-Upper-UP"
+      },
+      {
+        "id": 4,
+        "user": "GarthBrooksOnlyFan99",
+        "date": "03-02-2018",
+        "body": "Sometimes when I hear the bells, the angel says I shouldn't be afraid. I just wish it paid rent.",
+        "image": "assets/images/angels2.jpg",
+        "location": "Aspen"
+      },
+      {
+        "id": 5,
+        "user": "woodySmallman34",
+        "date": "01-17-2020",
+        "body": "Mothman called me and told me to watch his movie. I did, it was okay.",
+        "image": "assets/images/Mothman2.jpg",
+        "location": "Foster Township"
+      },
+      {
+        "id": 6,
+        "user": "conch4piggy",
+        "date": "11-12-2021",
+        "body": "My friend Bobby Ganish turned into a clockwork of pendulous eyeballs and said 'Be not a-skeer'd' and I said, 'you mean a-fear'd?' and then he ate my sandwich.",
+        "image": "assets/images/angels2.jpg",
+        "location": "Bay-View Richington Heights"
+      },
+      {
+        "id": 7,
+        "user": "partyparty123",
+        "date": "09-29-2019",
+        "body": "My girlfriend DM'd Mothman on twitter and he says there will be a great tragedy when the sun sets on the delta. Sold all my stock in the airline.",
+        "image": "assets/images/Mothman2.jpg",
+        "location": "Upper WEast Flatbush"
+      }
+    ]
+}
