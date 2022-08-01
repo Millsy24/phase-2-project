@@ -56,5 +56,29 @@
         "image": "assets/images/Mothman2.jpg",
         "location": "Upper WEast Flatbush"
       }
-    ]
+    ],
+    "cryptid" : [ {
+      "id": 100,
+      "name": "Bigfoots",
+      "content": "Bigfoot, also commonly referred to as Sasquatch, is a purported ape-like creature said to inhabit the forests of North America. Many dubious articles have been offered in attempts to prove the existence of Bigfoot, including anecdotal claims of visual observations as well as alleged video and audio recordings, photographs, and casts of large footprints. Some are known or admitted hoaxes. Tales of wild, hairy humanoids exist throughout the world, and such creatures appear in the folklore of North America, including the mythologies of indigenous people. Bigfoot is an icon within the fringe subculture of cryptozoology, and an enduring element of popular culture. -Wikipedia",
+      "image": "assets/images/bigfoot1.jpg"
+      },
+      {
+      "id": 101,
+      "name": "UFOs",
+      "content": "An unidentified flying object (UFO) also called a UAP (unidentified aerial phenomenon) is any perceived aerial phenomenon that cannot be immediately identified or explained. On investigation, most UFOs are identified as known objects or atmospheric phenomena, while a small number remain unexplained. Scientists and skeptic organizations such as the Committee for Skeptical Inquiry have provided prosaic explanations for a large number of claimed UFOs being caused by natural phenomena, human technology, delusions, or hoaxes. Small but vocal groups of ufologists favour unconventional, pseudoscientific hypotheses, some of which go beyond the typical extraterrestrial visitation claims and sometimes form part of new religions. -Wikipedia",
+      "image": "assets/images/ufo1.jpg"
+      },
+      {
+      "id": 102,
+      "name": "Mothmans",
+      "content": "In West Virginia folklore, the Mothman is a humanoid creature reportedly seen in the Point Pleasant area from November 15, 1966, to December 15, 1967. The first newspaper report was published in the Point Pleasant Register, dated November 16, 1966, titled 'Couples See Man-Sized Bird ... Creature ... Something.' The national press soon picked up the reports and helped spread the story across the United States. -Wikipedia",
+      "image": "assets/images/mothman1.png"
+      },
+      {
+      "id": 103,
+      "name": "Biblically Accurate Angels",
+      "content": "An angel is a supernatural spiritual being who, according to various religions, is God's servant. Abrahamic religions often depict angels as benevolent celestial intermediaries between God (or Heaven) and humanity. Other roles include protectors and guides for humans, and servants of God. Abrahamic religions describe angelic hierarchies, which vary by religion and sect. Some angels have specific names (such as Gabriel or Michael) or titles (such as seraph or archangel). Those expelled from Heaven are called fallen angels, distinct from the heavenly host. -Wikipedia",
+      "image": "assets/images/angels1.jpg"
+      }]
 }
