@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       
      <NavBar/>
-     <TrackPage/>
+     <TrackPage cryptids = {cryptids} sightings = {sightings} />
      <SubmitPage/>
      <CryptidsPage/>
 
