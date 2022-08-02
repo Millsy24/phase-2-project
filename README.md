@@ -1,6 +1,6 @@
 Known issues:
 
--lost some code on TrackCard.js to a merge
+-(solved)lost some code on TrackCard.js to a merge
 
 -pictures are not rendering from the assets folder
 

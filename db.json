@@ -29,7 +29,7 @@
         "user": "GarthBrooksOnlyFan99",
         "date": "03-02-2018",
         "body": "Sometimes when I hear the bells, the angel says I shouldn't be afraid. I just wish it paid rent.",
-        "image": "assets/images/angels2.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gustave_Dore_XIV.jpg",
         "location": "Aspen"
       },
       {
@@ -79,6 +79,6 @@
       "id": 103,
       "name": "Biblically Accurate Angels",
       "content": "An angel is a supernatural spiritual being who, according to various religions, is God's servant. Abrahamic religions often depict angels as benevolent celestial intermediaries between God (or Heaven) and humanity. Other roles include protectors and guides for humans, and servants of God. Abrahamic religions describe angelic hierarchies, which vary by religion and sect. Some angels have specific names (such as Gabriel or Michael) or titles (such as seraph or archangel). Those expelled from Heaven are called fallen angels, distinct from the heavenly host. -Wikipedia",
-      "image": "assets/images/angels1.jpg"
+      "image": "../images/angels1.jpg"
       }]
 }
