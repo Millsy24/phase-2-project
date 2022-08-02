@@ -8,8 +8,8 @@ import CryptidsPage from './Components/CryptidsPage'
 import NavBar from './Components/NavBar'
 
 function App() {
-  const sightingsURL = ""
-  const cryptidsURL = ""
+  const sightingsURL = "http://localhost:3000/sightings"
+  const cryptidsURL = "http://localhost:3000/cryptid"
   
   const [cryptids, SetCryptids]=useState([])
   const [sightings, setSightings]=useState([])
