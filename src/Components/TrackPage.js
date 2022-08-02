@@ -4,11 +4,11 @@ import TrackCardContainer from "./TrackCardContainer"
 
 
 
-const TrackPage = () => {
+const TrackPage = ({sightings}) => {
 return (
     <>
     <h2>Prophecies</h2>
-    <TrackCardContainer/>
+    <TrackCardContainer sightings = {sightings}/>
     </>
 ) 
 }

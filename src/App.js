@@ -24,13 +24,11 @@ function App() {
     fetch( cryptidsURL ).then(parseJSON).then(SetCryptids)
   },[])
 
-  
-
   return (
     <div className="App">
       
      <NavBar/>
-     <TrackPage cryptids = {cryptids} sightings = {sightings} />
+     <TrackPage sightings = {sightings}/>
      <SubmitPage/>
      <CryptidsPage/>
 
