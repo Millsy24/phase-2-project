@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, NavLink, Switch } from "react-router-dom";
 import './App.css'
@@ -8,9 +8,21 @@ import CryptidsPage from './Components/CryptidsPage'
 import NavBar from './Components/NavBar'
 
 function App() {
+  const sightingsURL = ""
+  const cryptidsURL = ""
+  
+  const [cryptids, SetCryptids]=useState([])
+  const [sightings, setSightings]=useState([])
+
+  
+  
   useEffect(()=>{
-    fetch('local')
-  })
+    fetch( sightingsURL ).then(parseJSON).then(setSightings);
+    fetch( cryptidsURL ).then(parseJSON).then(SetCryptids)
+  },[])
+
+  
+
   return (
     <div className="App">
      <NavBar/>
