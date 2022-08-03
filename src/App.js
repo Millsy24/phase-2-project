@@ -38,7 +38,7 @@ function App() {
           </Route>
       
           <Route path='/submitpage'>
-            <SubmitPage/>
+            <SubmitPage setSightings ={setSightings}/>
           </Route>
 
 

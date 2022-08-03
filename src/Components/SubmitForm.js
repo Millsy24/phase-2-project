@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect} from "react";
 
 const SubmitForm = ({
     user, 
@@ -10,11 +10,24 @@ const SubmitForm = ({
     handleDateChange,
     handleBodyChange,
     handleImageChange,
-    handleLocationChange
+    handleLocationChange,
+    setSightings
 }) => {
 
+    const handleSubmitForm=(e)=>{ 
+        e.preventDefault()
+  fetch("http://localhost:3000/sightings",{
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title: 'React POST Request Example' })
+}
+  )
+  .then(response => response.json())
+  .then(data => setSightings({ postId: data.id }));
+}
+
     return(
-        <form>
+        <form onSubmit={handleSubmitForm}>
         <input onChange={handleUserChange} type="text" value={user} placeholder={'input username'} />
         <input onChange={handleDateChange} type="text" value={date} placeholder={'input date'} />
         <input onChange={handleBodyChange} type="text" value={body} placeholder={'input your story'} />

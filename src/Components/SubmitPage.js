@@ -4,7 +4,7 @@ import SubmitForm from './SubmitForm';
 
 
 
-const SubmitPage = () => {
+const SubmitPage = ({setSightings}) => {
     //states constants
     const [user, setUser] = useState('')
     const [date,setDate] = useState('')
@@ -45,6 +45,7 @@ const SubmitPage = () => {
         handleBodyChange={handleBodyChange}
         handleImageChange={handleImageChange}
         handleLocationChange={handleLocationChange}
+        setSightings={setSightings}
        />
        </div>
       );
