@@ -8,14 +8,16 @@ import TrackCard from './TrackCard'
 const TrackCardContainer = ({sightings}) => {
 const card = sightings.map((obj)=>{
     return (
-        <TrackCard
-         key = {obj.id} 
-         user = {obj.user} 
-         date = {obj.date}
-         body = {obj.body}
-         image = {obj.image}
-         location = {obj.location}
-         />
+        <div className='content-large'>
+            <TrackCard
+                key = {obj.id} 
+                user = {obj.user} 
+                date = {obj.date}
+                body = {obj.body}
+                image = {obj.image}
+                location = {obj.location}
+            />
+         </div>
     )
 })
 

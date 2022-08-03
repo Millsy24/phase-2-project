@@ -8,7 +8,7 @@ const NavBar = () => {
 
     
     return (
-        <div>
+        <div className='nav-bar'>
             <NavLink
                 to="/"
                 exact

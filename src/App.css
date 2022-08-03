@@ -1,0 +1,42 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display:flexbox ;
+    overflow-x: scroll;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 1fr 1fr;
+    gap: 10px;
+
+  }
+  .container div {
+    padding: 10px;
+    border: 1px solid #000
+  }
+  .page-header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .nav-bar {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .content-large {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    width: 100vw ;
+    height: 66vw;
+  }
+  .card {
+    width: 75vw;
+    
+  }
+  .card-image{
+    height: 100px;
+    width: 100px;
+  }

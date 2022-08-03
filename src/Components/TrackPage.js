@@ -7,8 +7,10 @@ import TrackCardContainer from "./TrackCardContainer"
 const TrackPage = ({sightings}) => {
 return (
     <>
-    <h2>Prophecies</h2>
-    <TrackCardContainer sightings = {sightings}/>
+    <header className='page-header'><h2>Prophecies</h2></header>
+    <div className='body'>
+        <TrackCardContainer sightings = {sightings}/>
+    </div>
     </>
 ) 
 }
