@@ -5,16 +5,13 @@ import SubmitForm from './SubmitForm';
 
 
 const SubmitPage = ({setSightings}) => {
-    //states constants
-    
-    //handler functions
-    
+       
 
 
     return (
        <div>
-       <h1>What you done seen?</h1>
-       <p>Input the truth below...</p>
+       <h1 className='page-header'>What you done seen?</h1>
+       <p className='instructions'>Input the truth below...</p>
        <SubmitForm 
        //fewer props
        setSightings={setSightings}

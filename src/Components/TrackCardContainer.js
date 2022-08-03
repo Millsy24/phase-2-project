@@ -23,7 +23,7 @@ const card = sightings.map((obj)=>{
 })
 
 return (
-    <div className ="card container">
+    <div key={Math.random()*666} className ="card container">
         {card}
     </div>
 )

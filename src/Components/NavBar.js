@@ -8,24 +8,24 @@ const NavBar = () => {
 
     
     return (
-        <div className='nav-bar'>
-            <NavLink
+        <div className='navbar'>
+            <NavLink className="link-style"
                 to="/"
                 exact
             >
-            Sightings
+            <h3>Sightings</h3>   
             </NavLink>
-            <NavLink
+            <NavLink className="link-style"
                 to="/submitpage"
                 exact
             >
-            Submit Sighting    
+            <h3>Submit Sighting</h3>     
             </NavLink>
-            <NavLink
+            <NavLink className="link-style"
                 to="/cryptids"
                 exact
             >
-            Cryptids    
+            <h3>Cryptids</h3>    
             </NavLink>
                        
         </div>
