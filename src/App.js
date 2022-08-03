@@ -26,14 +26,14 @@ function App() {
   },[])
 
   return (
-    ReactDOM.render(
+    
     <div className="App">
       
-<BrowserRouter>
+
   <NavBar/>
-     <Switch>
+    <Switch>
       
-      <Route path='/'>
+      <Route exact path='/'>
         <TrackPage sightings = {sightings}/>
       </Route>
       
@@ -47,30 +47,37 @@ function App() {
       </Route>
      
       
-      </Switch>
-
-
-
-
-</BrowserRouter>
-
-   
-      
-    
-     
-     
+    </Switch>
+ 
      
 
     </div>
-    document.getElementById("root")
+   
     
-  ));
+  );
 }
-// ReactDOM.render(
-//   <BrowserRouter>
-//     <NavBar />
-//   </BrowserRouter>,
-//   document.getElementById("root")
-//   );
+ReactDOM.render(
+  <BrowserRouter>
+    <NavBar/>
+      <Switch>
+      
+        <Route exact path='/'>
+          <TrackPage/>
+        </Route>
+      
+        <Route path='/submitpage'>
+          <SubmitPage/>
+        </Route>
+
+
+        <Route path='/cryptids'>
+          <CryptidsPage/>
+        </Route>
+     
+      
+      </Switch>
+  </BrowserRouter>,
+  document.getElementById("root")
+  );
 
 export default App;
