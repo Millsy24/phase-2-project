@@ -19,7 +19,13 @@ const SubmitForm = ({
   fetch("http://localhost:3000/sightings",{
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ title: 'React POST Request Example' })
+    body: JSON.stringify({  
+                            user: user,
+                            date: date,
+                            body: body,
+                            image: image,
+                            location: location
+                         })
 }
   )
   .then(response => response.json())

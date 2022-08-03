@@ -6,7 +6,7 @@ Known issues:
 
 -(solved)need to program navigation
 
--set up Submit form to Post
+-(solved)set up Submit form to Post
 
 -talk about theming
     - has to look sort of crude
