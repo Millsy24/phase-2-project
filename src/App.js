@@ -6,7 +6,7 @@ import TrackPage from './Components/TrackPage'
 import SubmitPage from './Components/SubmitPage'
 import CryptidsPage from './Components/CryptidsPage'
 import NavBar from './Components/NavBar'
-import {Switch, Route, Link} from 'react-router-dom'
+import {Switch, Route, NavLink} from 'react-router-dom'
 
 function App() {
   const sightingsURL = "http://localhost:3000/sightings"
@@ -30,24 +30,24 @@ function App() {
     <div className="App">
       
 
-  <NavBar/>
-    <Switch>
+      <NavBar/>
+        <Switch>
       
-      <Route exact path='/'>
-        <TrackPage sightings = {sightings}/>
-      </Route>
+          <Route exact path='/'>
+            <TrackPage sightings = {sightings}/>
+          </Route>
       
-      <Route path='/submitpage'>
-        <SubmitPage/>
-      </Route>
+          <Route path='/submitpage'>
+            <SubmitPage/>
+          </Route>
 
 
-      <Route path='/cryptids'>
-        <CryptidsPage cryptids = {cryptids}/>
-      </Route>
+          <Route path='/cryptids'>
+            <CryptidsPage cryptids = {cryptids}/>
+          </Route>
      
       
-    </Switch>
+        </Switch>
  
      
 
@@ -56,28 +56,27 @@ function App() {
     
   );
 }
-ReactDOM.render(
-  <BrowserRouter>
-    <NavBar/>
-      <Switch>
+
+  // <BrowserRouter>
+  //   <NavBar/>
+  //     <Switch>
       
-        <Route exact path='/'>
-          <TrackPage/>
-        </Route>
+  //       <Route exact path='/'>
+  //         <TrackPage/>
+  //       </Route>
       
-        <Route path='/submitpage'>
-          <SubmitPage/>
-        </Route>
+  //       <Route path='/submitpage'>
+  //         <SubmitPage/>
+  //       </Route>
 
 
-        <Route path='/cryptids'>
-          <CryptidsPage/>
-        </Route>
+  //       <Route path='/cryptids'>
+  //         <CryptidsPage/>
+  //       </Route>
      
       
-      </Switch>
-  </BrowserRouter>,
-  document.getElementById("root")
-  );
-
+  //     </Switch>
+  // </BrowserRouter>,
+  
+ 
 export default App;
