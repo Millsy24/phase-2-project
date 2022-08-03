@@ -8,6 +8,8 @@ Known issues:
 
 -(solved)set up Submit form to Post
 
+- reset form on submit
+
 -talk about theming
     - has to look sort of crude
     - fixed render of cards in a viewport with scroll 
@@ -20,6 +22,7 @@ Known issues:
 
 -talk about stretch goals 
         -login page
-        -rating the sightings
+        -rating the sightings (Jonathon)
         -sighting page sort
         -fake banner ad
+        -delete button (Jonathon)

@@ -6,7 +6,8 @@
       "date": "07-21-2022",
       "body": "The Bigfoot in the Walmart parking lot told my dog the truth!",
       "image": "https://i.cbc.ca/1.4362553.1572547255!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/bigfoot-film-patterson-gimlin.jpg",
-      "location": "Ogdenburg"
+      "location": "Ogdenburg",
+      "rating": 5
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "date": "02-09-2021",
       "body": "I met four UFOs at the Chili Fest. They were nice but one of 'em stole my drink tickets.",
       "image": "https://media.defense.gov/2008/Mar/13/2000644715/2000/2000/0/080313-F-1234P-011.JPG",
-      "location": "Newcomerstown"
+      "location": "Newcomerstown",
+      "rating": 2
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "date": "05-01-2022",
       "body": "My uncle's dentist said he saw a guy in a Shrek costume in the woods, but it was probably a Bigfootses, probably.",
       "image": "https://static.scientificamerican.com/blogs/assets/tetrapod-zoology/File/bigfoot-vocalising-2-cropped-600-px-tiny-June-2016-Darren-Naish-Tetrapod-Zoologyjpg.jpg",
-      "location": "Upper-Upper-UP"
+      "location": "Upper-Upper-UP",
+      "rating": 2
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "date": "03-02-2018",
       "body": "Sometimes when I hear the bells, the angel says I shouldn't be afraid. I just wish it paid rent.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gustave_Dore_XIV.jpg",
-      "location": "Aspen"
+      "location": "Aspen",
+      "rating": 3
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "date": "01-17-2020",
       "body": "Mothman called me and told me to watch his movie. I did, it was okay.",
       "image": "https://bloximages.newyork1.vip.townnews.com/wvgazettemail.com/content/tncms/assets/v3/editorial/0/73/0738305d-d46a-56cc-8327-1f2eaf4cafbe/5f3548cabe228.image.jpg",
-      "location": "Foster Township"
+      "location": "Foster Township",
+      "rating": 5
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "date": "11-12-2021",
       "body": "My friend Bobby Ganish turned into a clockwork of pendulous eyeballs and said 'Be not a-skeer'd' and I said, 'you mean a-fear'd?' and then he ate my sandwich.",
       "image": "https://miro.medium.com/max/1400/1*-CCaZfLhb1z0qyY1x8OfbQ.jpeg",
-      "location": "Bay-View Richington Heights"
+      "location": "Bay-View Richington Heights",
+      "rating": 1
     },
     {
       "id": 7,
@@ -54,9 +60,10 @@
       "date": "09-29-2019",
       "body": "My girlfriend DM'd Mothman on twitter and he says there will be a great tragedy when the sun sets on the delta. Sold all my stock in the airline.",
       "image": "https://i2-prod.mirror.co.uk/incoming/article9350309.ece/ALTERNATES/s1200/Screen-Shot-2016-11-28-at-084320.jpg",
-      "location": "Upper WEast Flatbush"
+      "location": "Upper WEast Flatbush",
+      "rating": 4
     }
-
+    
   ],
   "cryptid": [
     {

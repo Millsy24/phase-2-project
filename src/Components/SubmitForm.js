@@ -1,4 +1,5 @@
 import {React, useEffect} from "react";
+import { useHistory } from "react-router-dom";
 
 const SubmitForm = ({
     user, 
@@ -16,7 +17,7 @@ const SubmitForm = ({
 
     const handleSubmitForm=(e)=>{ 
         e.preventDefault()
-  fetch("http://localhost:3000/sightings",{
+        fetch("http://localhost:3000/sightings",{
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({  
@@ -24,14 +25,17 @@ const SubmitForm = ({
                             date: date,
                             body: body,
                             image: image,
-                            location: location
+                            location: location,
+                            rating: 1
                          })
 }
   )
   .then(response => response.json())
-  .then(data => setSightings({ postId: data.id }));
+  .then(data => setSightings({ postId: data.id }))
+  // history.push('/')
+  
 }
-
+  // let history = useHistory()
     return(
         <form onSubmit={handleSubmitForm}>
         <input onChange={handleUserChange} type="text" value={user} placeholder={'input username'} />
