@@ -16,6 +16,7 @@ const card = sightings.map((obj)=>{
                 body = {obj.body}
                 image = {obj.image}
                 location = {obj.location}
+                rating = {obj.rating}
             />
          </div>
     )
