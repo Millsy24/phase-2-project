@@ -10,6 +10,7 @@ const SubmitForm = ({
   const [body, setBody] = useState('')
   const [image, setImage] = useState('')
   const [location, setLocation] = useState('')
+  const [rating, setRating] = useState('')
 
 
 //handler functions
@@ -28,6 +29,9 @@ const SubmitForm = ({
   const handleLocationChange = (event) => {
       setLocation(event.target.value)
   }
+  const handleRatingChange =(event) =>{
+      setRating(event.target.value)
+  }
 
   const resetDefault= ()=>{
     setUser("")
@@ -35,6 +39,7 @@ const SubmitForm = ({
     setBody("")
     setLocation("")
     setImage("")
+    setRating("")
   }
 
 
@@ -49,7 +54,7 @@ const SubmitForm = ({
                             body: body,
                             image: image,
                             location: location,
-                            rating: 1
+                            rating: rating
                          })
 }
   )
@@ -67,6 +72,7 @@ const SubmitForm = ({
         <input onChange={handleBodyChange} type="text" value={body} placeholder={'input your story'} />
         <input onChange={handleImageChange} type="text" value={image} placeholder={'input image url'} />
         <input onChange={handleLocationChange} type="text" value={location} placeholder={'input location'} />
+        <input onChange={handleRatingChange} type="text" value={rating} placeholder={'input rating'}/>
         <button type="submit">Submit</button>
       </form>
     )
