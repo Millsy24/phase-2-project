@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import SubmitForm from './SubmitForm';
 
 
@@ -6,27 +6,9 @@ import SubmitForm from './SubmitForm';
 
 const SubmitPage = ({setSightings}) => {
     //states constants
-    const [user, setUser] = useState('')
-    const [date,setDate] = useState('')
-    const [body, setBody] = useState('')
-    const [image, setImage] = useState('')
-    const [location, setLocation] = useState('')
+    
     //handler functions
-    const handleUserChange = (event) => {
-        setUser(event.target.value)
-    }
-    const handleDateChange = (event) => {
-        setDate(event.target.value)
-    }
-    const handleBodyChange = (event) => {
-        setBody(event.target.value)
-    }
-    const handleImageChange = (event) => {
-        setImage(event.target.value)
-    }
-    const handleLocationChange = (event) => {
-        setLocation(event.target.value)
-    }
+    
 
 
     return (
@@ -34,18 +16,8 @@ const SubmitPage = ({setSightings}) => {
        <h1>What you done seen?</h1>
        <p>Input the truth below...</p>
        <SubmitForm 
-       //lots and lots of props
-        user={user}
-        date={date}
-        body={body}
-        image={image}
-        location={location}
-        handleUserChange={handleUserChange}
-        handleDateChange={handleDateChange}
-        handleBodyChange={handleBodyChange}
-        handleImageChange={handleImageChange}
-        handleLocationChange={handleLocationChange}
-        setSightings={setSightings}
+       //fewer props
+       setSightings={setSightings}
        />
        </div>
       );

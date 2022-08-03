@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+// import ReactDOM from "react-dom";
+// import { BrowserRouter } from "react-router-dom";
 import './App.css'
 import TrackPage from './Components/TrackPage'
 import SubmitPage from './Components/SubmitPage'
 import CryptidsPage from './Components/CryptidsPage'
 import NavBar from './Components/NavBar'
-import {Switch, Route, NavLink} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 
 function App() {
   const sightingsURL = "http://localhost:3000/sightings"
@@ -57,26 +57,5 @@ function App() {
   );
 }
 
-  // <BrowserRouter>
-  //   <NavBar/>
-  //     <Switch>
-      
-  //       <Route exact path='/'>
-  //         <TrackPage/>
-  //       </Route>
-      
-  //       <Route path='/submitpage'>
-  //         <SubmitPage/>
-  //       </Route>
-
-
-  //       <Route path='/cryptids'>
-  //         <CryptidsPage/>
-  //       </Route>
-     
-      
-  //     </Switch>
-  // </BrowserRouter>,
-  
  
 export default App;

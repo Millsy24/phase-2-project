@@ -8,7 +8,7 @@ Known issues:
 
 -(solved)set up Submit form to Post
 
-- reset form on submit
+- (solved) reset form on submit
 
 -talk about theming
     - has to look sort of crude
