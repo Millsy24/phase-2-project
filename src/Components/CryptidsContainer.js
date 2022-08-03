@@ -6,11 +6,11 @@ import CryptidsCards from './CryptidsCard'
 
 const CryptidsContainer = ({cryptids}) => {
     const CryptidsComponent = cryptids.map(cryptid => {
-        return <CryptidsCards key = {cryptid.id} cryptids = {cryptid } > <img src = 'assets/images/angels1.jpg' /></CryptidsCards>
+        return <CryptidsCards key = {cryptid.id} cryptids = {cryptid } > <img src = 'img not found' alt='img not found' /></CryptidsCards>
     })
 
     return (
-        <div className = 'card container'>
+        <div className='content-large'>
             {CryptidsComponent}
         </div>
     )

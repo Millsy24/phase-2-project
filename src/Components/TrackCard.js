@@ -31,8 +31,8 @@ const TrackCard = ({ id, user, date, body, image, location, rating}) => {
 
     
     return(
-        <div id = {id}>
-            <img src ={image} alt = "monster that tells the future"/>
+        <div className='card' id = {id}>
+            <img src ={image} alt = "monster that tells the future" className='card-image'/>
             <p>User: {user}</p>
             <p>Date: {date}</p>
             <p>{body}</p>

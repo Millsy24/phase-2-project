@@ -9,7 +9,7 @@ const CryptidsPage = ({cryptids}) => {
     return(
 
         <>
-        <h1>Here are your Cryptids</h1>
+        <h1 className='page-header'>All Cryptids Currently Known to Science</h1>
         <CryptidsContainer cryptids = {cryptids}/>
         
         </>

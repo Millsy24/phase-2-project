@@ -61,11 +61,15 @@ const SubmitForm = ({
 }
   let history = useHistory()
     return(
-        <form onSubmit={handleSubmitForm}>
+        <form onSubmit={handleSubmitForm} className="form">
         <input onChange={handleUserChange} type="text" value={user} placeholder={'input username'} />
+        <br/>
         <input onChange={handleDateChange} type="text" value={date} placeholder={'input date'} />
-        <input onChange={handleBodyChange} type="text" value={body} placeholder={'input your story'} />
+        <br/>
+        <textarea onChange={handleBodyChange} type="text" value={body} placeholder={'input your story'} />
+        <br/>
         <input onChange={handleImageChange} type="text" value={image} placeholder={'input image url'} />
+        <br/>
         <input onChange={handleLocationChange} type="text" value={location} placeholder={'input location'} />
         <button type="submit">Submit</button>
       </form>

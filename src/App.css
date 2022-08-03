@@ -1,42 +1,56 @@
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
 
     display:flexbox ;
-    overflow-x: scroll;
-
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px 1fr 1fr;
-    gap: 10px;
+    overflow-y: scroll;
+    
 
   }
   .container div {
     padding: 10px;
-    border: 1px solid #000
+    border: 1px solid #000;
+    width: auto ;
+    
   }
   .page-header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    margin-left: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
-  .nav-bar {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
+  .navbar {
+    background-color: khaki;
+  }  
+  .link-style {
+    display: inline-block;
+    padding: 15px;
+    
+  }  
   .content-large {
     grid-row-start: 3;
     grid-row-end: 5;
-    width: 100vw ;
-    height: 66vw;
+    width: 83vw ;
+    height: 33vw;
+    display: grid;
+    margin-left: 20px;
   }
   .card {
     width: 75vw;
     
   }
   .card-image{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
   }
+  .form {
+   display: flexbox;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding: 7px; 
+   }
+   .instructions {
+    font-size: large;
+    font-style: italic;
+    margin-left: 55px;
+
+   }
