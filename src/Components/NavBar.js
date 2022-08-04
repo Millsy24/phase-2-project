@@ -8,6 +8,7 @@ const NavBar = () => {
 
     
     return (
+        <>
         <div className='navbar'>
             <NavLink className="link-style"
                 to="/"
@@ -26,9 +27,10 @@ const NavBar = () => {
                 exact
             >
             <h3>Cryptids</h3>    
-            </NavLink>
-                       
+            </NavLink>      
         </div>
+        {/* <img src = 'https://www.webdesignmuseum.org/uploaded/exhibitions/web-banners-in-the-90s/at-t-the-first-banner-1994.png'/> */}
+        </>
     )
 
 
