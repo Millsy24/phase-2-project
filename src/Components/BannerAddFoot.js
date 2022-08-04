@@ -1,5 +1,5 @@
 import React from "react";
-import {useState} from 'react';
+
 
 function FooterAdd(){
    
@@ -12,6 +12,7 @@ function FooterAdd(){
         id = 'annoyance' 
         src = 'https://www.webdesignmuseum.org/uploaded/exhibitions/web-banners-in-the-90s/yahoo-pager-1998.gif'
         onClick = {setLink}
+        alt = "a word from our sponsors"
       />
    )
 }

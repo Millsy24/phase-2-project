@@ -71,5 +71,9 @@ body {
     font-size: large;
     font-style: italic;
     margin-left: 55px;
-
+    background-color: khaki;
+   }
+   .intro-para {
+    background-color: khaki;
+    font-family: 'Courier New', Courier, monospace;
    }
