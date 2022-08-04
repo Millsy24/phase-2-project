@@ -1,3 +1,10 @@
+body {
+  background-image: url("https://images.theconversation.com/files/410222/original/file-20210707-21-wemgmo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
 .container {
     width: 100vw;
     height: 75vh;
@@ -7,12 +14,11 @@
     
 
   }
-  .container div {
-    padding: 10px;
-    border: 1px solid #000;
-    width: auto ;
-    
+
+  .card-container{
+    margin-left:10px
   }
+  
   .page-header {
     margin-left: 45px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -35,6 +41,10 @@
   }
   .card {
     width: 75vw;
+    background-color: khaki;
+    padding: 1px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
     
   }
   .card-image{

@@ -3,7 +3,6 @@ import React from 'react'
 
 
 const CryptidsCards = ({cryptids}) => {
-    console.log(cryptids)
     return(
 
         <div className= 'card'>
