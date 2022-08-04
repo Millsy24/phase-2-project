@@ -12,7 +12,16 @@ body {
     display:flexbox ;
     overflow-y: scroll;
     
+  }
 
+  #annoyance {
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+    color: rgb(0, 0, 0);
+    text-align: center;
   }
 
   .card-container{

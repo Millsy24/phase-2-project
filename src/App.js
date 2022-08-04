@@ -7,6 +7,7 @@ import SubmitPage from './Components/SubmitPage'
 import CryptidsPage from './Components/CryptidsPage'
 import NavBar from './Components/NavBar'
 import {Switch, Route} from 'react-router-dom'
+import FooterAdd from './Components/BannerAddFoot'
 
 function App() {
   const sightingsURL = "http://localhost:3000/sightings"
@@ -35,20 +36,22 @@ function App() {
       
           <Route exact path='/'>
             <TrackPage sightings = {sightings}/>
+            <FooterAdd/>
           </Route>
       
           <Route path='/submitpage'>
             <SubmitPage setSightings ={setSightings}/>
+            <FooterAdd/>
           </Route>
 
 
           <Route path='/cryptids'>
             <CryptidsPage cryptids = {cryptids}/>
+            <FooterAdd/>
           </Route>
      
       
         </Switch>
- 
      
 
     </div>
