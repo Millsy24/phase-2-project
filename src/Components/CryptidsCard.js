@@ -8,7 +8,7 @@ const CryptidsCards = ({cryptids}) => {
         <div className= 'card'>
             
             <h2 className ='card header'>{cryptids.name}</h2>
-            <img className = 'card image' src = {cryptids.image}/>
+            <img className = 'card image' src = {cryptids.image} alt=""/>
             <p className = 'card body'>{cryptids.content}</p>
 
 
